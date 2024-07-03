@@ -1,0 +1,103 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NetChess - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NetChess.res" /d "NDEBUG" "D:\avm\software\NetworkMorris\NetChess.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.PRA\LOCALS~1\Temp\RSP27B.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/NetChess.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\avm\software\NetworkMorris\ChessBoard.cpp"
+"D:\avm\software\NetworkMorris\ClientSocket.cpp"
+"D:\avm\software\NetworkMorris\History.cpp"
+"D:\avm\software\NetworkMorris\HistoryDlg.cpp"
+"D:\avm\software\NetworkMorris\HowToPlay.cpp"
+"D:\avm\software\NetworkMorris\MainFrm.cpp"
+"D:\avm\software\NetworkMorris\MessageSend.cpp"
+"D:\avm\software\NetworkMorris\MyColorDialog.cpp"
+"D:\avm\software\NetworkMorris\NetChess.cpp"
+"D:\avm\software\NetworkMorris\NetChessDoc.cpp"
+"D:\avm\software\NetworkMorris\NetChessView.cpp"
+"D:\avm\software\NetworkMorris\Options.cpp"
+"D:\avm\software\NetworkMorris\PickPieceDlg.cpp"
+"D:\avm\software\NetworkMorris\PropertiesDlg.cpp"
+"D:\avm\software\NetworkMorris\ServerInfoDlg.cpp"
+"D:\avm\software\NetworkMorris\ServerSocket.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.PRA\LOCALS~1\Temp\RSP27B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.PRA\LOCALS~1\Temp\RSP27C.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/NetChess.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\avm\software\NetworkMorris\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.PRA\LOCALS~1\Temp\RSP27C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.PRA\LOCALS~1\Temp\RSP27D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/NetworkMorris.pdb" /machine:I386 /out:"Release/NetworkMorris.exe" 
+.\Release\ChessBoard.obj
+.\Release\ClientSocket.obj
+.\Release\History.obj
+.\Release\HistoryDlg.obj
+.\Release\HowToPlay.obj
+.\Release\MainFrm.obj
+.\Release\MessageSend.obj
+.\Release\MyColorDialog.obj
+.\Release\NetChess.obj
+.\Release\NetChessDoc.obj
+.\Release\NetChessView.obj
+.\Release\Options.obj
+.\Release\PickPieceDlg.obj
+.\Release\PropertiesDlg.obj
+.\Release\ServerInfoDlg.obj
+.\Release\ServerSocket.obj
+.\Release\StdAfx.obj
+.\Release\NetChess.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.PRA\LOCALS~1\Temp\RSP27D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChessBoard.cpp
+ClientSocket.cpp
+History.cpp
+HistoryDlg.cpp
+HowToPlay.cpp
+MainFrm.cpp
+MessageSend.cpp
+MyColorDialog.cpp
+NetChess.cpp
+NetChessDoc.cpp
+NetChessView.cpp
+D:\avm\software\NetworkMorris\NetChessView.cpp(37) : warning C4244: 'initializing' : conversion from 'const double' to 'int', possible loss of data
+D:\avm\software\NetworkMorris\NetChessView.cpp(750) : warning C4101: 'to_piece_id' : unreferenced local variable
+D:\avm\software\NetworkMorris\NetChessView.cpp(783) : warning C4101: 'rm_piece_id' : unreferenced local variable
+D:\avm\software\NetworkMorris\NetChessView.cpp(782) : warning C4101: 'to_piece_id' : unreferenced local variable
+D:\avm\software\NetworkMorris\NetChessView.cpp(1178) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+D:\avm\software\NetworkMorris\NetChessView.cpp(1198) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+D:\avm\software\NetworkMorris\NetChessView.cpp(1213) : warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+D:\avm\software\NetworkMorris\NetChessView.cpp(1214) : warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+D:\avm\software\NetworkMorris\NetChessView.cpp(1296) : warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+D:\avm\software\NetworkMorris\NetChessView.cpp(1297) : warning C4244: '=' : conversion from 'long' to 'char', possible loss of data
+D:\avm\software\NetworkMorris\NetChessView.cpp(1361) : warning C4101: 'to_piece_state' : unreferenced local variable
+D:\avm\software\NetworkMorris\NetChessView.cpp(1356) : warning C4101: 'piece_state' : unreferenced local variable
+Options.cpp
+PickPieceDlg.cpp
+PropertiesDlg.cpp
+ServerInfoDlg.cpp
+ServerSocket.cpp
+Generating Code...
+D:\avm\software\NetworkMorris\NetChessView.cpp(483) : warning C4700: local variable 'bkcrRef' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+NetworkMorris.exe - 0 error(s), 13 warning(s)
+</pre>
+</body>
+</html>
